@@ -2,159 +2,122 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Black Watch Security</title>
+    <title>John Strong - Cybersecurity Resume</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        html {
-            scroll-behavior: smooth;
-        }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #121212;
             color: #ffffff;
             margin: 0;
-            padding: 0;
+            padding: 2rem;
             line-height: 1.6;
         }
-        header {
-            background: url('cyber-security-3400657_1280.jpg') center/cover no-repeat;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 3rem;
-            color: #ffffff;
-            margin: 0;
-            text-shadow: 2px 2px 5px #000;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin-top: 1rem;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
+        h1, h2, h3 {
             color: #69c0ff;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1.1rem;
         }
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 4rem 2rem;
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
         }
         section {
-            margin-bottom: 4rem;
+            margin-bottom: 3rem;
         }
-        h2 {
-            border-bottom: 2px solid #69c0ff;
-            padding-bottom: 0.5rem;
-            margin-bottom: 1rem;
+        ul {
+            padding-left: 1.25rem;
         }
-        .cta {
+        .contact-info {
             text-align: center;
-            padding: 3rem;
-            background-color: #1f1f1f;
-            border-radius: 10px;
+            margin-bottom: 2rem;
         }
-        .cta a {
-            background-color: #69c0ff;
-            color: #121212;
-            padding: 1rem 2rem;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            font-size: 1.1rem;
-        }
-        .testimonial {
-            font-style: italic;
-            background-color: #2a2a2a;
-            padding: 1rem;
-            border-radius: 5px;
-            margin-bottom: 1rem;
-        }
-        .img-break {
-            display: block;
-            margin: 3rem auto;
-            width: 100%;
-            max-width: 1000px;
-            border-radius: 10px;
+        .contact-info p {
+            margin: 0.2rem 0;
         }
         footer {
             text-align: center;
-            padding: 1.5rem;
-            background-color: #1f1f1f;
             font-size: 0.9rem;
+            color: #888;
+            margin-top: 4rem;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Black Watch Security</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#cases">Case Studies</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>John Strong</h1>
+        <p class="contact-info">
+            Principal Application Security Architect<br>
+            Email: contact@blackwatchsec.com<br>
+            Location: South Central Pennsylvania
+        </p>
     </header>
 
-    <div class="container">
-        <section id="about">
-            <h2>About</h2>
-            <p>Black Watch Security is led by John Strong, a seasoned cybersecurity executive known for creating robust, scalable security solutions. John partners directly with organizations, delivering tailored strategies that ensure rapid deployment and measurable outcomes.</p>
-        </section>
+    <section>
+        <h2>Professional Summary</h2>
+        <p>Cybersecurity architect with 22 years of software and security experience. Designed, built, and operationalized a full enterprise-grade application security program for a 10,000+ employee global organization. Proven ability to implement security at scale across thousands of applications, integrate toolchains, align with regulatory frameworks, and lead transformation projects from the ground up without reliance on third-party vendors or large teams.</p>
+    </section>
 
-        <section id="services">
-            <h2>Services</h2>
-            <ul>
-                <li>Application Security Program Development & Execution</li>
-                <li>Secure SDLC Implementation (NIST & SOC 2 Compliance)</li>
-                <li>Security Toolchain Integration (SAST, SCA, DAST)</li>
-                <li>Security Policy & Governance Development</li>
-                <li>Developer Security Training</li>
-                <li>Threat Modeling Workshops</li>
-                <li>Custom Threat Model Creation for Critical Systems</li>
-                <li>Third-Party Risk Management</li>
-            </ul>
-        </section>
+    <section>
+        <h2>Key Skills</h2>
+        <ul>
+            <li>Application Security Program Design & Execution</li>
+            <li>Secure SDLC Frameworks (NIST 800-218, SOC 2)</li>
+            <li>Toolchain Integration (SAST, SCA, DAST, CI/CD)</li>
+            <li>Threat Modeling (Workshop Facilitation & Model Creation)</li>
+            <li>Security Policy & Governance Development</li>
+            <li>Third-Party Software Risk Review & Approval Workflows</li>
+            <li>Internal Training & Developer Enablement</li>
+        </ul>
+    </section>
 
-        <img src="istockphoto-1400359666-612x612.jpg" alt="Cybersecurity Interaction Graphic" class="img-break">
+    <section>
+        <h2>Experience Highlights</h2>
+        <h3>Lead Application Security Architect — DNV (2019–Present)</h3>
+        <ul>
+            <li>Built and led DNV’s global application security program single-handedly across 9 business units and thousands of apps.</li>
+            <li>Rolled out Veracode SAST, SCA, and DAST in 63 days including policy, governance, training, and integration.</li>
+            <li>Designed secure SDLC process aligned to NIST 800-218 and now managing a company-wide rollout.</li>
+            <li>Raised SecurityScorecard rating from 63 to 98 in 52 days with targeted risk remediation and technical fixes.</li>
+            <li>Managed all BitSight and SecurityScorecard integrations, improvements, and reporting.</li>
+            <li>Served as the only cybersecurity member of the executive training committee (“Black Belt” board).</li>
+        </ul>
 
-        <section id="cases">
-            <h2>Case Studies</h2>
-            <ul>
-                <li>Raised SecurityScorecard rating from 63 to 98 in under two months.</li>
-                <li>Implemented comprehensive AppSec tooling across multiple divisions and thousands of applications in under 60 days.</li>
-                <li>Developed and enforced secure SDLC frameworks for an enterprise with over 10,000 employees.</li>
-            </ul>
-        </section>
+        <h3>Senior Software Developer — DNV (2017–2019)</h3>
+        <ul>
+            <li>Led secure software engineering projects and transitioned into building the first security program within the software division.</li>
+        </ul>
+    </section>
 
-        <section>
-            <h2>What Clients Say</h2>
-            <div class="testimonial">"John transformed our approach to security. Our stakeholders are now confident, and our risk profile has improved dramatically." - CTO, Enterprise SaaS Provider</div>
-            <div class="testimonial">"His ability to swiftly implement practical security measures has been invaluable." - VP of Engineering, Fintech Startup</div>
-        </section>
+    <section>
+        <h2>Project-Based Impact</h2>
+        <ul>
+            <li>Transformed unstructured security practices into formal governance within 6 months.</li>
+            <li>Developed end-to-end vendor security review workflow adopted company-wide.</li>
+            <li>Led secure coding training programs for internal developers, enhancing maturity levels across engineering teams.</li>
+            <li>Responded to and triaged dozens of real-world security incidents with measurable business impact.</li>
+        </ul>
+    </section>
 
-        <section id="contact" class="cta">
-            <h2>Secure Your Organization Now</h2>
-            <p>Connect with John Strong for an immediate consultation.</p>
-            <a href="mailto:contact@blackwatchsec.com">Contact John Today</a>
-        </section>
-    </div>
+    <section>
+        <h2>Technologies</h2>
+        <ul>
+            <li>Security Tools: Veracode, Snyk, Burp Suite, OWASP ZAP, Checkmarx</li>
+            <li>Languages: C#, Python, JavaScript, PowerShell</li>
+            <li>Frameworks: .NET, Node.js, Flask</li>
+            <li>Cloud & Infrastructure: Azure, Docker, GitHub Actions, Terraform</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education & Training</h2>
+        <ul>
+            <li>Certified Ethical Hacker (CEH) – EC-Council</li>
+            <li>Certified Azure Security Engineer (in progress)</li>
+            <li>Self-directed training in NIST 800-218, OWASP SAMM, and threat modeling</li>
+        </ul>
+    </section>
 
     <footer>
-        &copy; 2025 Black Watch Security | All rights reserved.
+        &copy; 2025 John Strong. All rights reserved.
     </footer>
 </body>
 </html>
