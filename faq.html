@@ -74,58 +74,147 @@
             <div class="col-lg-8">
                 <h2 class="mb-4">Frequently Asked Questions</h2>
                 <div class="accordion" id="faqAccordion">
+                  <!-- Q1 -->
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="faq1">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
-                        What services do you provide?
+                    <h2 class="accordion-header" id="faqOneHeader">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne" aria-expanded="true" aria-controls="faqOne">
+                        What industries do you specialize in?
                       </button>
                     </h2>
-                    <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                    <div id="faqOne" class="accordion-collapse collapse show" aria-labelledby="faqOneHeader" data-bs-parent="#faqAccordion">
                       <div class="accordion-body">
-                        I provide application and product security architecture, secure code reviews, SDLC integration, threat modeling, and AppSec program development for startups and mid-sized enterprises.
+                        I specialize in high-risk environments: critical infrastructure, energy, finance, insurance, SaaS platforms, and complex embedded systems. If a breach would be catastrophic, I’m your guy.
                       </div>
                     </div>
                   </div>
                 
+                  <!-- Q2 -->
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="faq2">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
-                        Do you offer penetration testing?
+                    <h2 class="accordion-header" id="faqTwoHeader">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+                        Do you handle legacy systems?
                       </button>
                     </h2>
-                    <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div id="faqTwo" class="accordion-collapse collapse" aria-labelledby="faqTwoHeader" data-bs-parent="#faqAccordion">
                       <div class="accordion-body">
-                        I partner with trusted third-party pen testers but focus primarily on application-layer security architecture, static/dynamic analysis, and developer enablement.
+                        Yes. Legacy codebases don’t scare me. I reverse-engineer what others ignore, then build hardened layers around it while we work toward modernizing in place.
                       </div>
                     </div>
                   </div>
                 
+                  <!-- Q3 -->
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="faq3">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
-                        Do you work with small teams or startups?
+                    <h2 class="accordion-header" id="faqThreeHeader">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+                        Do you offer one-time assessments?
                       </button>
                     </h2>
-                    <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div id="faqThree" class="accordion-collapse collapse" aria-labelledby="faqThreeHeader" data-bs-parent="#faqAccordion">
                       <div class="accordion-body">
-                        Yes. I specialize in building scalable, no-nonsense security programs for startups that can’t afford bloat or enterprise bureaucracy.
+                        Absolutely. Whether you need a targeted threat model, architecture review, or a quick pre-audit security sanity check — I deliver fast, actionable results without fluff.
                       </div>
                     </div>
                   </div>
                 
+                  <!-- Q4 -->
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="faq4">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
-                        How do I get started?
+                    <h2 class="accordion-header" id="faqFourHeader">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqFour" aria-expanded="false" aria-controls="faqFour">
+                        Will you work with our internal security team?
                       </button>
                     </h2>
-                    <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div id="faqFour" class="accordion-collapse collapse" aria-labelledby="faqFourHeader" data-bs-parent="#faqAccordion">
                       <div class="accordion-body">
-                        Use the contact form at the bottom of the page or email <a href="mailto:contact@blackwatchsec.com">contact@blackwatchsec.com</a>. I respond within 24–48 hours.
+                        Yes. I can augment your team or operate solo. I’ve worked with Fortune 500 SOCs and also been the lone expert at a startup. I adjust to fit your internal dynamics.
+                      </div>
+                    </div>
+                  </div>
+                
+                  <!-- Q5 -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqFiveHeader">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqFive" aria-expanded="false" aria-controls="faqFive">
+                        What’s your security approach?
+                      </button>
+                    </h2>
+                    <div id="faqFive" class="accordion-collapse collapse" aria-labelledby="faqFiveHeader" data-bs-parent="#faqAccordion">
+                      <div class="accordion-body">
+                        Practical. Ruthless. Risk-based. I use the NIST SSDF, OWASP SAMM, and threat modeling as baselines — but I always tailor to your business context. Security without pragmatism is just theater.
+                      </div>
+                    </div>
+                  </div>
+                
+                  <!-- Q6 -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqSixHeader">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqSix" aria-expanded="false" aria-controls="faqSix">
+                        Do you offer ongoing retainer services?
+                      </button>
+                    </h2>
+                    <div id="faqSix" class="accordion-collapse collapse" aria-labelledby="faqSixHeader" data-bs-parent="#faqAccordion">
+                      <div class="accordion-body">
+                        Yes. I provide fractional CISO, architecture review, and security program advisory retainers. Perfect for organizations that need senior-level expertise without a full-time hire.
+                      </div>
+                    </div>
+                  </div>
+                
+                  <!-- Q7 -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqSevenHeader">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqSeven" aria-expanded="false" aria-controls="faqSeven">
+                        How do you price your services?
+                      </button>
+                    </h2>
+                    <div id="faqSeven" class="accordion-collapse collapse" aria-labelledby="faqSevenHeader" data-bs-parent="#faqAccordion">
+                      <div class="accordion-body">
+                        Straight hourly or fixed-scope deliverables — your call. No upcharges, no retainers unless requested, no fine print. You get technical expertise, not sales fluff.
+                      </div>
+                    </div>
+                  </div>
+                
+                  <!-- Q8 -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqEightHeader">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqEight" aria-expanded="false" aria-controls="faqEight">
+                        Are you available for emergency incident support?
+                      </button>
+                    </h2>
+                    <div id="faqEight" class="accordion-collapse collapse" aria-labelledby="faqEightHeader" data-bs-parent="#faqAccordion">
+                      <div class="accordion-body">
+                        If I’m not booked, yes — breach triage, IR guidance, or containment strategy. I can help stabilize fast and identify root causes if your internal team is overwhelmed.
+                      </div>
+                    </div>
+                  </div>
+                
+                  <!-- Q9 -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqNineHeader">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqNine" aria-expanded="false" aria-controls="faqNine">
+                        What tools do you use?
+                      </button>
+                    </h2>
+                    <div id="faqNine" class="accordion-collapse collapse" aria-labelledby="faqNineHeader" data-bs-parent="#faqAccordion">
+                      <div class="accordion-body">
+                        I don’t sell tools, I deploy the right ones. Veracode, Burp, threat modeling in ThreatSpec, secure SDLC with GitHub Actions, container hardening with Trivy/Grype — I use what works, not what’s trendy.
+                      </div>
+                    </div>
+                  </div>
+                
+                  <!-- Q10 -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqTenHeader">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTen" aria-expanded="false" aria-controls="faqTen">
+                        Can you help us pass a customer security questionnaire or audit?
+                      </button>
+                    </h2>
+                    <div id="faqTen" class="accordion-collapse collapse" aria-labelledby="faqTenHeader" data-bs-parent="#faqAccordion">
+                      <div class="accordion-body">
+                        Yes. I’ve handled hundreds of vendor risk questionnaires, pen test result briefings, SOC 2 alignment efforts, and customer security reviews. I’ll make sure you don’t get steamrolled.
                       </div>
                     </div>
                   </div>
                 </div>
+
 
  <!-- FAQ End -->
 </div>
