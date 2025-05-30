@@ -2,31 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>John Strong - Cybersecurity Resume</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #121212;
-            color: #ffffff;
-            margin: 0;
-            padding: 2rem;
-            line-height: 1.6;
-        }
-        h1, h2, h3 {
-            color: #69c0ff;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-        section {
-            margin-bottom: 3rem;
-        }
-        ul {<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
     <title>Black Watch Security</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
@@ -42,7 +17,6 @@
             line-height: 1.6;
         }
         header {
-            background: url('cyber-security-3400657_1280.jpg') center/cover no-repeat;
             height: 100vh;
             display: flex;
             flex-direction: column;
@@ -53,8 +27,6 @@
         header h1 {
             font-size: 3rem;
             color: #ffffff;
-            margin: 0;
-            text-shadow: 2px 2px 5px #000;
         }
         nav ul {
             list-style: none;
@@ -106,18 +78,21 @@
             border-radius: 5px;
             margin-bottom: 1rem;
         }
-        .img-break {
-            display: block;
-            margin: 3rem auto;
-            width: 100%;
-            max-width: 1000px;
-            border-radius: 10px;
-        }
         footer {
             text-align: center;
             padding: 1.5rem;
             background-color: #1f1f1f;
             font-size: 0.9rem;
+        }
+        article {
+            background-color: #1e1e1e;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-top: 2rem;
+        }
+        article h3 {
+            color: #69c0ff;
+            margin-top: 0;
         }
     </style>
 </head>
@@ -155,8 +130,6 @@
             </ul>
         </section>
 
-        <img src="istockphoto-1400359666-612x612.jpg" alt="Cybersecurity Interaction Graphic" class="img-break">
-
         <section id="cases">
             <h2>Case Studies</h2>
             <ul>
@@ -167,22 +140,13 @@
         </section>
 
         <section id="blog">
-            <h2>Blog: Dangling DNS – The Invisible Threat That Can Destroy a Business</h2>
-            <p>Most companies are unaware that their unused DNS entries pose a serious security risk. These "dangling DNS" records are subdomains that still resolve to cloud services that have since been decommissioned—leaving an open door for attackers.</p>
-            <p>Attackers actively scan for such records. Once they identify one, they can spin up a service with the same name in the corresponding cloud provider and hijack the subdomain. This allows them to impersonate the organization, steal data, deliver malware, or host phishing content under a trusted domain.</p>
-            <p><strong>Real-world examples:</strong></p>
-            <ul>
-                <li>Uber had a dangling DNS entry that led to a subdomain takeover exposing sensitive information.</li>
-                <li>Microsoft faced similar issues with Azure-hosted subdomains.</li>
-            </ul>
-            <p><strong>How to prevent it:</strong></p>
-            <ul>
-                <li>Regular DNS audits</li>
-                <li>Remove unused DNS entries</li>
-                <li>Monitor cloud asset configurations</li>
-                <li>Use continuous monitoring tools to alert on changes</li>
-            </ul>
-            <p><em>Need help auditing or remediating DNS risks?</em> <a href="mailto:contact@blackwatchsec.com">Contact Black Watch Security</a></p>
+            <h2>Blog</h2>
+            <article>
+                <h3>Dangling DNS: What It Is and Why It’s a Threat</h3>
+                <p>In this article, we dive into the concept of dangling DNS records—what they are, why they exist, and how they can be exploited by attackers. A dangling DNS record occurs when a DNS entry points to a resource that has been decommissioned, such as an expired cloud service or a deleted subdomain.</p>
+                <p>Attackers scan for these stale records because they can register the abandoned service and serve malicious content under a trusted domain. For organizations, this can mean brand damage, phishing risks, and reputational fallout.</p>
+                <p>We also cover how to audit for and prevent these exposures, along with real-world examples where these misconfigurations led to critical incidents. Don’t assume that because something was shut down, it can’t be turned against you. Clean up your DNS.</p>
+            </article>
         </section>
 
         <section>
@@ -200,97 +164,6 @@
 
     <footer>
         &copy; 2025 Black Watch Security | All rights reserved.
-    </footer>
-</body>
-</html>
-
-            padding-left: 1.25rem;
-        }
-        .contact-info {
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-        .contact-info p {
-            margin: 0.2rem 0;
-        }
-        footer {
-            text-align: center;
-            font-size: 0.9rem;
-            color: #888;
-            margin-top: 4rem;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>John Strong</h1>
-        <p class="contact-info">
-            Principal Application Security Architect<br>
-            Email: contact@blackwatchsec.com<br>
-            Location: South Central Pennsylvania
-        </p>
-    </header>
-
-    <section>
-        <h2>Professional Summary</h2>
-        <p>Cybersecurity architect with 22 years of software and security experience. Designed, built, and operationalized a full enterprise-grade application security program for a 10,000+ employee global organization. Proven ability to implement security at scale across thousands of applications, integrate toolchains, align with regulatory frameworks, and lead transformation projects from the ground up without reliance on third-party vendors or large teams.</p>
-    </section>
-
-    <section>
-        <h2>Key Skills</h2>
-        <ul>
-            <li>Application Security Program Design & Execution</li>
-            <li>Secure SDLC Frameworks (NIST 800-218, SOC 2)</li>
-            <li>Toolchain Integration (SAST, SCA, DAST, CI/CD)</li>
-            <li>Threat Modeling (Workshop Facilitation & Model Creation)</li>
-            <li>Security Policy & Governance Development</li>
-            <li>Third-Party Software Risk Review & Approval Workflows</li>
-            <li>Internal Training & Developer Enablement</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Experience Highlights</h2>
-        <h3>Lead Application Security Architect — DNV (2019–Present)</h3>
-        <ul>
-            <li>Built and led DNV’s global application security program single-handedly across 9 business units and thousands of apps.</li>
-            <li>Rolled out Veracode SAST, SCA, and DAST in 63 days including policy, governance, training, and integration.</li>
-            <li>Designed secure SDLC process aligned to NIST 800-218 and now managing a company-wide rollout.</li>
-            <li>Raised SecurityScorecard rating from 63 to 98 in 52 days with targeted risk remediation and technical fixes.</li>
-            <li>Managed all BitSight and SecurityScorecard integrations, improvements, and reporting.</li>
-            <li>Served as the only cybersecurity member of the executive training committee (“Black Belt” board).</li>
-        </ul>
-
-        <h3>Senior Software Developer — DNV (2017–2019)</h3>
-        <ul>
-            <li>Led secure software engineering projects and transitioned into building the first security program within the software division.</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Project-Based Impact</h2>
-        <ul>
-            <li>Transformed unstructured security practices into formal governance within 6 months.</li>
-            <li>Developed end-to-end vendor security review workflow adopted company-wide.</li>
-            <li>Led secure coding training programs for internal developers, enhancing maturity levels across engineering teams.</li>
-            <li>Responded to and triaged dozens of real-world security incidents with measurable business impact.</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Technologies</h2>
-        <ul>
-            <li>Security Tools: Veracode, Snyk, Burp Suite, OWASP ZAP, Checkmarx</li>
-            <li>Languages: C#, Python, JavaScript, PowerShell</li>
-            <li>Frameworks: .NET, Node.js, Flask</li>
-            <li>Cloud & Infrastructure: Azure, Docker, GitHub Actions, Terraform</li>
-        </ul>
-    </section>
-    
-    </section>
-
-    <footer>
-        &copy; 2025 John Strong. All rights reserved.
     </footer>
 </body>
 </html>
