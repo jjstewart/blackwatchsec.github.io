@@ -23,7 +23,187 @@
         section {
             margin-bottom: 3rem;
         }
-        ul {
+        ul {<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Black Watch Security</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: url('cyber-security-3400657_1280.jpg') center/cover no-repeat;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            color: #ffffff;
+            margin: 0;
+            text-shadow: 2px 2px 5px #000;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 1rem;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #69c0ff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 4rem 2rem;
+        }
+        section {
+            margin-bottom: 4rem;
+        }
+        h2 {
+            border-bottom: 2px solid #69c0ff;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .cta {
+            text-align: center;
+            padding: 3rem;
+            background-color: #1f1f1f;
+            border-radius: 10px;
+        }
+        .cta a {
+            background-color: #69c0ff;
+            color: #121212;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        .testimonial {
+            font-style: italic;
+            background-color: #2a2a2a;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+        .img-break {
+            display: block;
+            margin: 3rem auto;
+            width: 100%;
+            max-width: 1000px;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #1f1f1f;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Black Watch Security</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#cases">Case Studies</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About</h2>
+            <p>Black Watch Security is led by John Strong, a seasoned cybersecurity executive known for creating robust, scalable security solutions. John partners directly with organizations, delivering tailored strategies that ensure rapid deployment and measurable outcomes.</p>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Application Security Program Development & Execution</li>
+                <li>Secure SDLC Implementation (NIST & SOC 2 Compliance)</li>
+                <li>Security Toolchain Integration (SAST, SCA, DAST)</li>
+                <li>Security Policy & Governance Development</li>
+                <li>Developer Security Training</li>
+                <li>Threat Modeling Workshops</li>
+                <li>Custom Threat Model Creation for Critical Systems</li>
+                <li>Third-Party Risk Management</li>
+            </ul>
+        </section>
+
+        <img src="istockphoto-1400359666-612x612.jpg" alt="Cybersecurity Interaction Graphic" class="img-break">
+
+        <section id="cases">
+            <h2>Case Studies</h2>
+            <ul>
+                <li>Raised SecurityScorecard rating from 63 to 98 in under two months.</li>
+                <li>Implemented comprehensive AppSec tooling across multiple divisions and thousands of applications in under 60 days.</li>
+                <li>Developed and enforced secure SDLC frameworks for an enterprise with over 10,000 employees.</li>
+            </ul>
+        </section>
+
+        <section id="blog">
+            <h2>Blog: Dangling DNS – The Invisible Threat That Can Destroy a Business</h2>
+            <p>Most companies are unaware that their unused DNS entries pose a serious security risk. These "dangling DNS" records are subdomains that still resolve to cloud services that have since been decommissioned—leaving an open door for attackers.</p>
+            <p>Attackers actively scan for such records. Once they identify one, they can spin up a service with the same name in the corresponding cloud provider and hijack the subdomain. This allows them to impersonate the organization, steal data, deliver malware, or host phishing content under a trusted domain.</p>
+            <p><strong>Real-world examples:</strong></p>
+            <ul>
+                <li>Uber had a dangling DNS entry that led to a subdomain takeover exposing sensitive information.</li>
+                <li>Microsoft faced similar issues with Azure-hosted subdomains.</li>
+            </ul>
+            <p><strong>How to prevent it:</strong></p>
+            <ul>
+                <li>Regular DNS audits</li>
+                <li>Remove unused DNS entries</li>
+                <li>Monitor cloud asset configurations</li>
+                <li>Use continuous monitoring tools to alert on changes</li>
+            </ul>
+            <p><em>Need help auditing or remediating DNS risks?</em> <a href="mailto:contact@blackwatchsec.com">Contact Black Watch Security</a></p>
+        </section>
+
+        <section>
+            <h2>What Clients Say</h2>
+            <div class="testimonial">"John transformed our approach to security. Our stakeholders are now confident, and our risk profile has improved dramatically." - CTO, Enterprise SaaS Provider</div>
+            <div class="testimonial">"His ability to swiftly implement practical security measures has been invaluable." - VP of Engineering, Fintech Startup</div>
+        </section>
+
+        <section id="contact" class="cta">
+            <h2>Secure Your Organization Now</h2>
+            <p>Connect with John Strong for an immediate consultation.</p>
+            <a href="mailto:contact@blackwatchsec.com">Contact John Today</a>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2025 Black Watch Security | All rights reserved.
+    </footer>
+</body>
+</html>
+
             padding-left: 1.25rem;
         }
         .contact-info {
