@@ -5,6 +5,9 @@
     <title>Black Watch Security</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #121212;
@@ -14,39 +17,42 @@
             line-height: 1.6;
         }
         header {
-            background: #1f1f1f;
-            padding: 2rem 1rem;
+            background: url('cyber-security-3400657_1280.jpg') center/cover no-repeat;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-align: center;
         }
         header h1 {
-            margin-bottom: 0.5rem;
-            font-size: 2.5rem;
+            font-size: 3rem;
+            color: #ffffff;
+            margin: 0;
+            text-shadow: 2px 2px 5px #000;
         }
         nav ul {
             list-style: none;
             padding: 0;
+            margin-top: 1rem;
         }
         nav ul li {
             display: inline;
-            margin: 0 10px;
+            margin: 0 15px;
         }
         nav ul li a {
             color: #69c0ff;
             text-decoration: none;
             font-weight: bold;
+            font-size: 1.1rem;
         }
         .container {
             max-width: 1100px;
             margin: auto;
-            padding: 2rem;
-        }
-        .hero-image {
-            width: 100%;
-            height: auto;
-            display: block;
+            padding: 4rem 2rem;
         }
         section {
-            margin-bottom: 3rem;
+            margin-bottom: 4rem;
         }
         h2 {
             border-bottom: 2px solid #69c0ff;
@@ -55,7 +61,7 @@
         }
         .cta {
             text-align: center;
-            padding: 2rem;
+            padding: 3rem;
             background-color: #1f1f1f;
             border-radius: 10px;
         }
@@ -66,6 +72,7 @@
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
+            font-size: 1.1rem;
         }
         .testimonial {
             font-style: italic;
@@ -74,11 +81,18 @@
             border-radius: 5px;
             margin-bottom: 1rem;
         }
+        .img-break {
+            display: block;
+            margin: 3rem auto;
+            width: 100%;
+            max-width: 1000px;
+            border-radius: 10px;
+        }
         footer {
             text-align: center;
-            padding: 1rem;
+            padding: 1.5rem;
             background-color: #1f1f1f;
-            margin-top: 3rem;
+            font-size: 0.9rem;
         }
     </style>
 </head>
@@ -94,8 +108,6 @@
             </ul>
         </nav>
     </header>
-
-    <img src="cyber-security-3400657_1280.jpg" alt="Cybersecurity visual" class="hero-image">
 
     <div class="container">
         <section id="about">
@@ -116,6 +128,8 @@
                 <li>Third-Party Risk Management</li>
             </ul>
         </section>
+
+        <img src="istockphoto-1400359666-612x612.jpg" alt="Cybersecurity Interaction Graphic" class="img-break">
 
         <section id="cases">
             <h2>Case Studies</h2>
